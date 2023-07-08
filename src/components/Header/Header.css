@@ -1,0 +1,79 @@
+.header{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white !important;
+  padding: 0 28px 0 8px;
+  border-bottom: 0.3px solid lightgrey;
+  height: 60px;
+}
+
+.header__left{
+  width: 300px;
+  height: 42px;
+}
+.header__left >.header__logo{
+  height: 42px;
+  object-fit: contain;
+}
+
+.header__search{
+  display: flex;
+  align-items: center;
+  width: 25%;
+  background-color: #f9f9f9;
+  padding: 8px;
+  border-radius: 20px;
+  border: 0.2px solid lightgray;
+}
+.header__search > .header__searchinput{
+  background-color: #f9f9f9;
+  border: 0px solid white;
+  flex: 1;
+  outline: none;
+  border-right: 1px solid lightgrey;
+  height: 20px;
+}
+.header__search > .header__searchicon{
+  padding: 0 10px;
+  color: darkgray;
+  font-size: 24px;
+}
+
+.header__utils{
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.header__utilsdot{
+  font-size: 20px !important;
+}
+
+.header__button{
+  border: 1px solid lightgrey !important;
+  margin: 6px !important;
+}
+.header__utils > .header__utilsupload{
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  background-color: #f9f9f9;
+  color: black;
+  text-transform: none;
+  font-weight: bold;
+}
+.header__utils > .header__utilsupload > .header__utilsadd {
+  font-size: 22px !important;
+  padding: 4px;
+}
+.header__utils > .header__utilslogin{
+  font-weight: bold !important;
+  color: white;
+  background-color: red;
+  text-transform: none;
+}

@@ -1,0 +1,37 @@
+.contentrow{
+  display: flex;
+  padding: 20px 0px;
+  border-top: 0.5px solid lightgray;
+  border-bottom: 0.5px solid lightgray;
+  width: 592px;
+  margin: 0 auto;
+}
+.contentrow__content{
+  flex: 1;
+  padding-left: 10px;
+}
+.contentrow__text{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.contentrow__text > Button {
+  border: 1px solid red;
+  color: red;
+  height: 30px;
+  width: 90px;
+  text-transform: none;
+}
+.muiIcon{
+  font-size: 80px;
+}
+
+.contentrow__video{
+  display: flex;
+}
+
+@media (min-width: 1070px){
+  .contentrow{
+    width: 692px;
+  }
+}

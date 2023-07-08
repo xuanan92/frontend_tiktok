@@ -1,0 +1,37 @@
+.sidebarRow{
+  display: flex;
+  align-items: center;
+  padding:8px;
+}
+
+.sidebarRow:hover{
+  background-color: #f9f9f9;
+}
+.sidebarRow > .sidebarRow__icon{
+  font-size: 45px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.sidebarRow > span{
+  display: none;
+}
+.active{
+  color: red;
+}
+
+@media only screen and (min-width: 1000px) {
+.sidebarRow > span{
+  font-size: 18px;
+  display: block;
+  font-weight: bold;
+  margin-left: 8px;
+}
+.sidebarRow > .sidebarRow__icon{
+  margin: 0;
+  padding: 0px;
+  width: 32px;
+  height: 32px;
+}
+
+}
